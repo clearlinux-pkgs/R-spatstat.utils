@@ -1,5 +1,7 @@
 # This file contains recursive sources that require this package
 R-spatstat
+R-spatstat.core
 R-spatstat.data
 R-spatstat.geom
+R-spatstat.linnet
 R-spatstat.sparse

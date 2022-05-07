@@ -4,4 +4,5 @@ R-spatstat.core
 R-spatstat.data
 R-spatstat.geom
 R-spatstat.linnet
+R-spatstat.random
 R-spatstat.sparse

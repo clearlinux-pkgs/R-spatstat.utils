@@ -2,7 +2,9 @@
 R-spatstat
 R-spatstat.core
 R-spatstat.data
+R-spatstat.explore
 R-spatstat.geom
 R-spatstat.linnet
+R-spatstat.model
 R-spatstat.random
 R-spatstat.sparse

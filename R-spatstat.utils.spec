@@ -4,7 +4,7 @@
 #
 Name     : R-spatstat.utils
 Version  : 3.0.2
-Release  : 58
+Release  : 59
 URL      : https://cran.r-project.org/src/contrib/spatstat.utils_3.0-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.utils_3.0-2.tar.gz
 Summary  : Utility Functions for 'spatstat'
@@ -12,9 +12,6 @@ Group    : Development/Tools
 License  : GPL-2.0+
 Requires: R-spatstat.utils-lib = %{version}-%{release}
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 which may also be useful for other purposes.
@@ -36,10 +33,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1678726560
+export SOURCE_DATE_EPOCH=1678831343
 
 %install
-export SOURCE_DATE_EPOCH=1678726560
+export SOURCE_DATE_EPOCH=1678831343
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "

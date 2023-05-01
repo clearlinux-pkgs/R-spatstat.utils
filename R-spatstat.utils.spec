@@ -4,7 +4,7 @@
 #
 Name     : R-spatstat.utils
 Version  : 3.0.2
-Release  : 60
+Release  : 61
 URL      : https://cran.r-project.org/src/contrib/spatstat.utils_3.0-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.utils_3.0-2.tar.gz
 Summary  : Utility Functions for 'spatstat'
